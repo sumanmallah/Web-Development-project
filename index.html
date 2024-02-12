@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Death Penalty in USA</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <div class = "header-container">    
+  <div class = "flex-item">
+    <button class ="A">Environmental Topics</button>
+      <button class= "B" >Laws & Regulations </button>
+      <button>Contact Us</button>
+      
+  </div>
+  </div>
+ 
+    <link href="reset.css" rel="stylesheet" type="text/css" />
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="reset-webview.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+   <!-- Modal -->
+  <div id="thanks-modal" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div id="modal-text-container">
+      <!-- text here -->
+    <p id="thanks-content-modal">  </p>
+      <!-- button here (stretch feature) -->
+    </div>
+    <!-- image here-->
+    <img id="modal-img" src="thx.jpg"/>
+  </div>
+</div>
+  <!-- model section end-->
+  <!-- Part 1: Navbar Starter Code -->
+
+<div class="navbar">
+  <ul>
+    <li><a href="#Introduction">About</a></li>
+      <li><a href="#Information">Information</a></li>
+      <li><a href="#history">History</a></li>
+      <li><a href="#Deathrowbyrace">Death Row by Race</a></li>
+      <li><a href="#Number of executions">Number Of Executions</a></li>
+      <li><button id = "theme-button">Dark Mode</button></li>
+    <!-- Stretch Challenge: Drop Down -->
+  </ul>
+</div>
+   <div>
+    <h1 class = "headings">Death Penalty in USA</h1>  
+  </div>
+  <p>The death penalty, also known as capital punishment, is a legal sanction that involves the execution of an individual convicted of a specific crime, usually a capital crime or offense. This punishment has been used throughout history and across various cultures and legal systems. Its primary aim is to deter criminal behavior and retribution for the most severe crimes, such as murder, espionage, treason, and terrorism.
+Methods of execution have varied over time and place, including techniques such as hanging, firing squad, lethal injection, electrocution, and beheading. The death penalty has been a subject of significant debate and controversy, with proponents arguing for its deterrent effect and justice. At the same time, opponents raise concerns about wrongful convictions, racial and socioeconomic biases, and the morality of taking human life as punishment.
+In recent decades, the global trend has been moving towards abolishing the death penalty, with over 100 countries repealing it in law or practice. However, some countries like the United States, China, Iran, and Saudi Arabia continue to practice capital punishment. The topic remains divisive and a significant focus in criminal justice and human rights discussions.</p>
+  <img src = "Deathpenaty.jpg" alt= "Death penalty in USA" class = "resize-image"/>
+  <div>
+   <h2>Information Center</h2>
+  </div>
+  <p>The death penalty is a legal process in which a person is sentenced to death by the state as a punishment for a crime they have committed. The method of execution varies by country. The use of the death penalty is controversial, with arguments for and against its use. As of 2021, 54 countries still have the death penalty, while 143 countries have abolished it in law or practice. In the United States, the death penalty is legal in 27 states, but its use has declined in recent years. The use of the death penalty remains controversial and heavily debated worldwide.<a href="https://deathpenaltyinfo.org"> Deathpenalty Information Center</a></p>
+
+  <div>
+    <h2> Execution Graph</h2>
+    <p>Since the reinstatement of the death penalty in the US in 1976, there have been 1,533 executions, with Texas, Virginia, and Oklahoma having the highest number of executions. However, the use of the death penalty has been declining in recent years, with fewer executions and new death sentences. The federal government resumed executions in 2020 after 17 years and carried out ten executions, but there have been none since September 2021.</p>
+    <img src = "Graph.jpg" alt= "Execution Graph" class = "resize-image"/>
+    
+  </div>
+
+  
+
+
+
+<!-- Part 2: Flexbox Layout Stater Code -->
+
+<div class="container">
+  <div class="item"></div>
+  <div class="item"></div>
+  <div class="item"></div>
+</div>
+  
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+
+  <div class="petition revealable" id="petition">
+
+    <h2>Sign Our Petition 📢</h2>
+    <div class="petition-container">
+
+
+      <div class="petition-para">
+        <--The death penalty should stop for several reasons, including ethical considerations that it violates the fundamental human right to life.-->
+      </div>
+
+      <div class="signatures">
+        <!-- signatures go here -->
+    
+      </div>
+
+    //</div>
+
+  <!--- Sign Petition Form --->
+  <form id="sign-petition" title="sign-petition">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="lastname">Last name:</label>
+    <input type="text" id="lname" name="lname" required><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br><br>
+  </form>
+
+   <!--- Sign Now Button --->
+ <button id="sign-now-button">Sign Now</button><br><br>
+
+
+</div>
+  <script src="index.js"></script>
+  </body>
+
+</html>
