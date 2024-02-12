@@ -13,7 +13,7 @@
    git clone https://github.com/sumanmallah/Web-Development-project)https://github.com/sumanmallah/Web-Development-project
 2. Navigate to the project directory:
    cd Web-Development-project
-3. 3. Start a local server:
+3. Start a local server:
 - Using Python:
   ```
   python -m http.server
